@@ -23,9 +23,6 @@ const BitcoinPriceCard: React.FC<BitcoinPriceCardProps> = ({
   title = 'Bitcoin Price',
   symbol = 'btcusdt',
   price = '$73,452.42',
-  percentageChange = '▲ 6.64%',
-  smallPrice = 'Ƀ1',
-  smallPercentageChange = '▲ 0%',
 }) => {
   const cryptoPrice = useCryptoPrice(symbol, price);
 
